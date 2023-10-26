@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Template Main CSS File -->
+  <link href="../../assets/css/main.css" rel="stylesheet">
+  <link href="../../assets/css/sidebar.css" rel="stylesheet">
+  <link href="../assets/css/footer.css" rel="stylesheet">
+  <link href="../../assets/css/about.css" rel="stylesheet">
+  <link href="../../assets/css/contact_form.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Favicons -->
+  <link href="logo.png" rel="icon">
+
+  <title>Golnaz Shahrestani</title>
+</head>
+<body>
+  <div class = "grid-container-wrapper">
+    <nav class = " sidebar grid-item grid-item-1">
+     
+      <h1><img id="logo_size" src="..\..\assets\img\logo.png" alt="Girl in a jacket" width="150" height="150"></h1>
+
+   
+      <div class="menu">
+
+<!----------------------------------------------------------------- large screen -->
+          <div id="sideMenu_largeScreen" class="dropdown_container">
+            <ul class="dropdown_margins">
+            
+              <li> <a href="..\..\index.html">Home</a></li>
+              <li> <a href="..\..\index.html">Art</a></li>
+              <li>
+                  <span class="dp_lang">
+                    <a href="#">
+                      <div class="gallary_div">
+                        <span class="galary_text">Photography</span>
+                        <i class="fa fa-caret-down"></i>
+                      </div>
+                    </a>
+                  
+                    <ul class="dropdown">
+                      <li> <a href="categories\nature.html">Nature</a></li>
+                      <li> <a href="categories\city.html">City</a></li>
+                      <li> <a href="categories\flying.html">Flying</a></li>
+                      <li> <a href="categories\culture.html">Culture</a></li>
+                      <li> <a href="categories\foods.html">Foods</a></li>
+                      <li> <a href="categories\landscape.html">Landscape</a></li>
+                      <li> <a href="categories\other.html">Other</a></li>
+                  </ul>
+                </span>
+                  
+              </li>
+            
+            </ul>
+          </div>
+
+          <!-- PK34UNIL0109000251694807
+          UNILPKKA -->
+<!----------------------------------------------------------------- large screen -->
+
+          <div id="sideMenu_smallScreen" class="dropdown_container">
+            <ul class="dropdown_margins_ipad">
+            
+              <li class="icon_home"><a href="..\..\index.html"><i id ="icon_home" class="fa fa-home" style="font-size:34px"></i></a></li>
+             
+              <li class="icon_art"><a href="..\..\index.html"><i id ="icon_art" class="fa fa-globe" style="font-size:34px"></i></a></li>
+    
+              <li>
+                  <span class="dp_lang">
+                    <a href="#">
+                      <div class="gallary_div">
+                        
+                      <div id ="icon_photography" class="custom_home_icon_flex">
+                        <i  class="fa fa-file-photo-o" style="font-size:30px"></i>  
+                        <i class="fa fa-caret-down"></i>
+                      </div>
+                        
+                    
+                        
+                      </div>
+                    </a>
+                    
+                    <ul class="dropdown">
+                      <li> <a href="categories\nature.html">Nature</a></li>
+                      <li> <a href="categories\city.html">City</a></li>
+                      <li> <a href="categories\flying.html">Flying</a></li>
+                      <li> <a href="categories\culture.html">Culture</a></li>
+                      <li> <a href="categories\foods.html">Foods</a></li>
+                      <li> <a href="categories\landscape.html">Landscape</a></li>
+                      <li> <a href="categories\other.html">Other</a></li>
+                  </ul>
+                </span>
+                  
+              </li>
+              
+            </ul>
+          </div>
+
+
+
+          <ul class="contact_details">
+            
+              <li >
+              <a class = "contact" href="contact_form.html">
+                 
+                  <span class=" nav-text">Contact</span>
+              </a>
+              </li>
+          </ul>
+      </div>
+
+    </nav>
+
+  <!-- Sidebar -->
+
+    <main id="contact-form-bg" class = "main grid-item grid-item-2">
+      <div>
+        <section>
+     
+          
+
+          <div class="contact-form-container">
+            <h1 class="contact-form-text-color">Feel Free To Reach Out!</h1>
+            <br>
+            <form class="push_bottom" onsubmit="sendEmail(); reset(); return false;">
+              <label class="contact-labels"  for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="state your inquiry. . .">
+
+              <label class="contact-labels"  for="fname">Full Name</label>
+              <input type="text" id="fname" name="fname" placeholder="your name here. . .">
+
+              <label class="contact-labels" for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder=". . .@gmail.com">
+              
+              <div style="display:flex; ">
+                <div style="flex-grow: 3">
+                  <label class="contact-labels"  for="msg">Message</label>
+                  <!-- <address>
+                    <input type="textarea" id="msg" name="msg" placeholder="Write Your Message Here!">
+                  </address> -->
+
+                  <form action="/action_page.php">
+             
+                    <textarea id="w3review" name="w3review" rows="4" cols="50">At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.</textarea>
+                   
+                  </form>
+                </div>
+
+                
+              </div>
+             
+              <button id="contact_button" type="submit"> Submit </button> 
+
+            </form>
+          </div>
+
+        </section>
+
+        <!-- <section class="email-contact">
+          Contact at golnaz@cedco.de
+        </section> -->
+
+        <footer id="colophon" class="site-footer" role="contentinfo">
+          <div class="social-wrapper">
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/golnaz-shahrestani-34051b251/" target="_blank">
+                  <img style = "width:40px" src="..\assets\img\linkedin.png" alt="Twitter Logo" class="twitter-icon"></a>
+              </li>
+              <!-- <li>
+                <a href="#" target="_blank">
+                  <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" alt="Twitter Logo" class="twitter-icon"></a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  <img src="https://www.mchenryvillage.com/images/instagram-icon.png" alt="Instagram Logo" class="instagram-icon"></a>
+              </li>
+       
+              <li>
+                <a href="#" target="_blank">
+                  <img src="http://www.iconarchive.com/download/i54037/danleech/simple/facebook.ico" alt="Facebook Logo" class="facebook-icon"></a>
+              </li>
+         
+              <li>
+                <a href="#" target="_blank">
+                  <img src="https://lh3.googleusercontent.com/j_RwVcM9d47aBDW5DS1VkdxUYCkDUCB6wZglv4x-9SmsxO0VaFs7Csh-FmKRCWz9r_Ef=w170" alt="Youtube Logo" class="youtube-icon"></a>
+              </li> -->
+        
+            </ul>
+          </div>
+        
+          <nav class="footer-nav" role="navigation">
+            <p class="footer-text">Copyright &copy; 2023-
+              Golnaz. All rights reserved.</p>
+          </nav>
+        </footer>
+        
+<!-- 
+        <section>
+          <div class="content">
+            <h2>Golmaz </h2>
+            <h2>Golmaz </h2>
+          </div>
+        </section> -->
+
+      </div>
+
+
+      <!-- <div class="grid-container">
+
+        
+      </div> -->
+
+    </main>
+  </div>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+  function sendEmail(){
+    Email.send({
+      Host : "smtp.elasticemail.com",
+      // Host : "smtp.gmail.com",
+      Username : "karanbaho12@gmail.com",
+      Password : "DE6DC1C6AB6CB6B0649DCAEF35C129F669FA",
+      // Password : "Witribe1234567",
+      // To: '	golnaz@cedco.de',
+      To: 'nabeerdar1@gmail.com',
+      // To: 'corzah911@gmail.com',
+      // From : document.getElementById("email").value,
+      // From: 'corzah911@gmail.com',
+      From: "userinfo@shahrestani.de",
+      Subject : document.getElementById("subject").value,
+      Body : "Full Name: " + document.getElementById("fname").value +
+              "<br> Email: " + document.getElementById("email").value +
+              "<br> Write your message here: " + document.getElementById("msg").value 
+    }).then(
+      message => alert(message + " Message Sent Successfully")
+    );
+
+    
+
+    // Email.send({
+    //   Host : "smtp.elasticemail.com",
+    //   Username : "karanbaho12@gmail.com",
+    //   Password : "DE6DC1C6AB6CB6B0649DCAEF35C129F669FA",
+    //   To : 'nabeerdar1@gmail.com',
+    //   From : "userinfo@shahrestani.de",
+    //   Subject : "This is the subject",
+    //   Body : "And this is the body"
+    // }).then(
+    //   message => alert(message)
+    // );
+  }
+    
+</script>
+  
+  
+</body>
+</html>
+
+
+

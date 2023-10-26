@@ -1,0 +1,85 @@
+
+
+/* ---------------------------------  Our Mission - Row 1  ------------------------------- */
+
+.lo{
+    /* height: 80vh; */
+    /* background-color: bisque; */
+}
+.art-wall-paper{
+    /* background-color: aquamarine; */
+    overflow-y: auto;
+    height: auto;
+    width: 100%;
+    
+}
+
+.boxes-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-content:end;
+    align-items: stretch;
+    justify-content: center;
+  
+    /* background-color: aqua; */
+    height: auto;
+    /* margin: 20px; */
+    /* border: 1px solid rebeccapurple; */
+}
+
+.box-1{
+    height: auto;
+    /* background-color: bisque; */
+    width: 70px;
+    flex-grow: 2;
+    border-right: 5px solid rgb(255, 255, 255);
+    border-top: 3.5px solid rgb(255, 255, 255);
+}
+
+.box-2{
+    height: auto;
+    /* background-color: bisque; */
+   
+    flex-grow: 2;
+    width: 70px;
+    border-left: 5px solid rgb(255, 255, 255);
+    border-top: 3.5px solid rgb(255, 255, 255);
+}
+
+.box-3{
+    height: auto;
+    /* background-color: bisque; */
+    width: 70px;
+    flex-grow: 2;
+    border-right: 5px solid rgb(255, 255, 255);
+    border-bottom: 3.5px solid rgb(255, 255, 255);
+}
+
+.box-4{
+    height: auto;
+    /* background-color: bisque; */
+   
+    flex-grow: 2;
+    width: 70px;
+    border-left: 5px solid rgb(255, 255, 255);
+    border-bottom: 3.5px solid rgb(255, 255, 255);
+}
+
+
+.x2{
+    width: 100%;
+}
+.x3{
+    width: 100%;
+}
+
+.second-div-wrapper{
+    padding: 3vw 5vw;
+    text-align: center;
+}
+
+
+.second-div{
+    text-align: center;
+    color: #2d4c88;
+}

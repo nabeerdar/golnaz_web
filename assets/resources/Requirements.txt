@@ -1,0 +1,21 @@
+Font Style: Specimen
+
+	https://fonts.google.com/specimen/Golos+Text
+
+
+Websites References
+
+	https://www.timothywhitehead.com/
+	https://www.yazandandis.com/
+
+TO DO
+1) Fontstyle 
+2) „about“ page with everything from current „home“ page
+3) CV botton in about me page
+4) Home page with big picture of me and the big line „Mechanical Engineering student with a passion for flight“ 
+5) decrease distance between pictures in „photography“ section
+6) Contact form: add „Feel free to reach out“ on top. Make one row for „full name“. Change „send“ to „submit“ and „name“ to „Message“
+7) change background colour to lighter blue
+8) add the new photography sections like „culture“ „food“… 
+9) Increase Logo size on top left a little bit
+10) Swiping or Slider function when clicking on the images

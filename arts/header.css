@@ -1,0 +1,197 @@
+
+/*-------------------------- Head Start ----------------------*/
+
+header{
+    z-index: 3;
+    background-color: #fff;
+    position: relative;
+    top:0;
+    width: 100%;
+    height: auto;
+    padding: 25px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+}
+.logo{
+    /* width: 10vw; */
+    width: 190px;
+}
+
+
+header img{
+    width: 100%;
+}
+
+
+
+header .navigation{
+    color: #34bcd2;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1.3em;
+    font-family: Roboto;
+}
+
+header .navigation::after{
+    content: '';
+    width: 0%;
+    height: 3.5px;
+    background: #fdca1f;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+header .navigation:hover::after{
+    width: 100%
+}
+
+.toggle-navigation{
+    display: none
+}
+
+#check{
+    z-index: 3;
+    display: none;
+}
+
+
+
+/* Responsiveness */
+@media (max-width: 1050px){
+    /* header{
+        padding: 2.5vh 0vh;
+    } */
+    .logo{
+        width: 110px;
+        position: absolute;
+        top: 0.55vh;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    header .navigation{
+        display: none;
+    }
+
+    .toggle-navigation{
+        display: block;
+        font-size: 2em;
+        cursor: pointer;
+        color: white;
+        transition: 0.3s;
+        transition-property: color;
+    }
+    .toggle-navigation:hover{
+        color: rgb(51, 51, 51)
+    }
+    .toggle-navigation .close-btn{
+        display: none;
+    }
+    #check:checked ~ header{
+        
+        z-index:4;
+        position: static;
+        width: 100%;
+        background: #fff;
+        top: 0;
+        /* bottom: 0;
+        left: 0;
+        right: 0; */
+        /* height: 170%; */
+        /* overflow: hidden; */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 10%;
+        row-gap: 6vh;
+    }
+
+  
+
+    #check:checked ~ header .navigation{
+        overflow-y: hidden;
+        z-index: 2;
+        display:block;
+        letter-spacing: 1px;
+        font-weight: 570;
+    }
+
+    #check:checked ~ header .navigation:active{
+        color: #fdca1f;
+    }
+    #check:checked ~ header .logo{
+        display:none;
+    }
+   
+    #check:checked ~ header label .menu-btn{
+        display: none;
+    }
+
+    #check:checked ~ header label .close-btn{
+        z-index: 4;
+        display: block;
+        position: absolute;
+        top: 1.6vh;
+        right: 1.8vh;
+        color: #34bcd2;
+        transition: 0.13s;
+    }
+
+    #check:checked ~ header label .close-btn:hover{
+        color:rgb(51, 51, 51);
+    }
+
+
+    .toggle-navigation .menu-btn{
+        position: absolute;
+        top: 1.2vh;
+        right: 3vw;
+        color: #34bcd2;
+        transition: 0.13s;
+    }
+   
+    .toggle-navigation .menu-btn:hover{
+        color:rgb(51, 51, 51);
+    }
+    
+}
+
+@media (max-width: 690px){
+    /* header{
+        padding: 2.5vh 0vh;
+    } */
+    .logo{
+        width: 95px;
+        position: absolute;
+        top: 1vh;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
+
+@media (max-width: 400px){
+    /* header{
+        padding: 2.5vh 0vh;
+    } */
+    .logo{
+        width: 85px;
+        position: absolute;
+        top: 1.5vh;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
+
+@media (max-width: 350px){
+    /* header{
+        padding: 2.5vh 0vh;
+    } */
+    .logo{
+        display: none;
+    }
+
+}
