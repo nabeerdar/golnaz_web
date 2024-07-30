@@ -1,0 +1,171 @@
+
+
+.travelcomponent-container {
+    margin-left: 15%;
+   
+  }
+  
+  .mapbg {
+ margin-left:8%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+    opacity: 0.9;
+  }
+  
+  .travelcomponent-images {
+
+    margin: 40px;
+    display: flex;
+    
+    justify-content: center;
+    gap: 20px; 
+  }
+  
+  .folderimages {
+    position: relative;
+    margin-bottom: 20px; 
+  }
+  
+  .folderimages img {
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover;
+    border: 10px solid yellow;
+    outline: 2px solid red;
+    outline-offset: -2px; 
+    border-bottom: 45px solid yellow; 
+  }
+  
+  .gallery-text {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+   
+    padding: 5px;
+    
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+
+  @media screen and (min-width: 200px) and (max-width: 500px) {
+    .travelcomponent-images {
+        margin: 10px;
+        display: flex;
+    flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px; 
+      }
+      .slider-control{
+display: none;
+      }
+      .folderimages img {
+        width: 170px; 
+        height: 170px; 
+        object-fit: cover;
+        border: 10px solid yellow;
+        outline: 2px solid red;
+        outline-offset: -2px; 
+        border-bottom: 45px solid yellow; 
+      }
+  
+  }
+
+  @media screen and (min-width:500px) and (max-width: 1030px) {
+    .travelcomponent-images {
+        margin: 10px;
+        display: flex;
+    flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px; 
+      }
+      .slider-control{
+display: none;
+      }
+      .folderimages img {
+        width: 150px; 
+        height: 150px; 
+        object-fit: cover;
+        border: 10px solid yellow;
+        outline: 2px solid red;
+        outline-offset: -2px; 
+        border-bottom: 45px solid yellow; 
+      }
+  
+  }
+  @media screen and (min-width: 300px) and (max-width: 1030px) {
+    .travelcomponent-images {
+        margin: 10px;
+        display: flex;
+    flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px; 
+      }
+      .slider-control{
+display: none;
+      }
+
+      
+  
+  }
+
+  @media screen and (min-width: 1030px) and (max-width: 3000px) {
+    .travelcomponent-images {
+        margin: 10px;
+        display: flex;
+    
+        justify-content: center;
+        gap: 20px; 
+      }
+      .folderimages img {
+        width: 150px; 
+        height: 150px; 
+        object-fit: cover;
+        border: 10px solid yellow;
+        outline: 2px solid red;
+        outline-offset: -2px; 
+        border-bottom: 45px solid yellow; 
+      }
+      .travelcomponent-images {
+        margin: 10px;
+        display: flex;
+        
+        justify-content: center;
+        gap: 10px; 
+      }
+  }
+
+
+
+
+  .slider-control {
+    position: fixed;
+  background-color: rgb(228, 228, 229);
+    top: 12%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 999;
+    padding: 5px 5px;
+ 
+  }
+  
+  .slider-control.smaller {
+    left: 15%;
+    transform: translateY(-50%);
+  }
+  
+  .slider-control.greater {
+    right: 0px;
+    transform: translateY(-50%);
+  }
+
+
+  
+  
+  

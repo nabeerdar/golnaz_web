@@ -1,0 +1,430 @@
+section {
+  margin: wrap;
+}
+
+#intro {
+  width: 100vw;
+  max-width: 75rem;
+  margin: 10px auto;
+  overflow: hidden;
+  display: flex;
+  margin-bottom: -10px;
+}
+
+.mid-logo {
+  display: none;
+  width: 5rem;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.introPara {
+  border-left: 2px solid rgb(137, 162, 247);
+  padding-left: 16px;
+  text-align: justify;
+
+}
+
+
+.Golnaz-image {
+  justify-content: center;
+  padding: 3px;
+  height: 90vh;
+
+}
+
+.introContent {
+  padding: 2rem;
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hello {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #090c33;
+
+}
+
+.introName {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3062;
+}
+
+.introText {
+  font-size: 2.5rem;
+  color: #FA9C80;
+  font-weight: 700;
+}
+
+.introPara {
+  font-size: 1.2rem;
+  color: #314453;
+  font-weight: 500;
+}
+
+.btn {
+  background: rgb(255, 255, 255);
+  margin: 1rem 0;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  border: 2px solid #161c6e;
+  color: #1f2579;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+
+/* @media screen and (max-width: 1170px) and (max-height: 2532px) {
+  #intro {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hello {
+    font-size: 5rem;
+    ;
+  }
+
+  .introText {
+    font-size: 5rem;
+  }
+
+  .introName {
+    font-size: 5rem;
+  }
+
+
+
+  .btn {
+    background: rgb(255, 255, 255);
+    padding: 1rem 2rem;
+    border-radius: 4rem;
+    border: 2px solid #161c6e;
+    color: #1f2579;
+    font-size: 3.5rem;
+    cursor: pointer;
+  }
+
+  .introContent {
+    margin-top: 40px;
+    height: 37vh;
+    width: 90%;
+    padding: 1rem;
+    font-size: 2rem;
+  }
+
+  .introPara {
+    text-align: justify;
+    font-size: 3.5rem;
+    margin-bottom: 100px;
+  }
+
+  .Golnaz-image {
+    max-height: 70vh;
+    width: auto;
+  }
+
+  .mid-logo {
+    display: block;
+    width: 5rem;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .btn {
+    background: rgb(255, 255, 255);
+    margin: 1rem 0;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+    border: 2px solid #161c6e;
+    color: #1f2579;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+
+  .Golnaz-image {
+    justify-content: center;
+    padding: 3px;
+    height: 90vh;
+
+  }
+
+  .hello {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #090c33;
+
+  }
+
+  .introName {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2c3062;
+  }
+
+  .introText {
+    font-size: 2.5rem;
+    color: #FA9C80;
+    font-weight: 700;
+  }
+
+  #intro {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .introContent {
+    padding: 2rem;
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: px;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+  }
+
+  .introContent {
+    width: 85%;
+
+  }
+
+  .hello {
+    font-size: 2rem;
+  }
+
+  .introName {
+    font-size: 1.9rem;
+  }
+
+  .introText {
+    font-size: 2rem;
+  }
+
+  .introPara {
+    font-size: 1.6rem;
+    margin-bottom: auto;
+  }
+
+  .mid-logo {
+    display: block;
+    width: 5rem;
+    justify-content: center;
+    align-items: center;
+
+  }
+} */
+
+
+@media screen and (max-width: 1024px) {
+
+  .btn {
+    background: rgb(255, 255, 255);
+    margin: 1rem 0;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+    border: 2px solid #161c6e;
+    color: #1f2579;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+
+  .Golnaz-image {
+    justify-content: center;
+    padding: 3px;
+    height: 90vh;
+
+  }
+
+  .hello {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #090c33;
+
+  }
+
+  .introName {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2c3062;
+  }
+
+  .introText {
+    font-size: 2.5rem;
+    color: #FA9C80;
+    font-weight: 700;
+  }
+
+  #intro {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .introContent {
+    padding: 2rem;
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: px;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+  }
+
+  .introContent {
+    width: 85%;
+
+  }
+
+  .hello {
+    font-size: 2rem;
+  }
+
+  .introName {
+    font-size: 1.9rem;
+  }
+
+  .introText {
+    font-size: 2rem;
+  }
+
+  .introPara {
+    font-size: 1.6rem;
+    margin-bottom: auto;
+  }
+
+  .mid-logo {
+    display: block;
+    width: 5rem;
+    justify-content: center;
+    align-items: center;
+
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .btn {
+    background: rgb(255, 255, 255);
+    margin: 1rem 0;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+    border: 2px solid #161c6e;
+    color: #1f2579;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+
+  .Golnaz-image {
+    justify-content: center;
+    padding: 3px;
+    height: 90vh;
+    max-height: auto;
+
+  }
+
+  .hello {
+    font-size: 2rem;
+  }
+
+  .introName {
+    font-size: 1.9rem;
+  }
+
+  .introText {
+    font-size: 2rem;
+  }
+
+  .introContent {
+    margin-top: auto;
+    height: auto;
+    width: 100%;
+    margin: 3px;
+  }
+
+  .Golnaz-image {
+    justify-content: center;
+    padding: 3px;
+    max-height: 70vh;
+    width: auto;
+  }
+
+  .introPara {
+    font-size: 24px;
+    margin-bottom: auto;
+  }
+
+  .mid-logo {
+    display: block;
+    width: 5rem;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+}
+
+
+@media screen and (min-width: 50px) and (max-width: 300px) {
+
+  .btn {
+    background: rgb(255, 255, 255);
+    margin: 1rem 0;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+    border: 2px solid #161c6e;
+    color: #1f2579;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+
+  .Golnaz-image {
+    justify-content: center;
+    padding: 3px;
+    height: 90vh;
+
+  }
+
+  .hello {
+    font-size: 2rem;
+  }
+
+  .introName {
+    font-size: 1.9rem;
+  }
+
+  .introText {
+    font-size: 2rem;
+  }
+
+  .introContent {
+    margin-top: auto;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+
+  }
+
+  .introPara {
+    font-size: 15px;
+    margin-bottom: auto;
+  }
+
+  .Golnaz-image {
+    justify-content: center;
+    padding: 3px;
+    max-height: 70vh;
+    width: auto;
+  }
+
+
+}

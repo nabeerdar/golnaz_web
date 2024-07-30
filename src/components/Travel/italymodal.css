@@ -1,0 +1,70 @@
+/* 
+
+.italy-modal {
+    position: relative;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 12px; 
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: transparent;
+    border: none;
+    color: rgb(15, 14, 14);
+    font-size: 16px;
+    cursor: pointer;
+    font-size: 5rem;
+    z-index: 1;
+  }
+  
+  .italy-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .italy-images img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .italy-images img:hover {
+    transform: scale(1.1);
+    border-color: rgb(11, 11, 11); 
+  } */
+
+  /* italymodal.css */
+
+.italy-modal {
+    position: relative;
+  }
+  
+  .italy-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .italy-images img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .italy-images img:hover {
+    transform: scale(1.1);
+    border-color: rgb(11, 11, 11); 
+  }
+  
+  

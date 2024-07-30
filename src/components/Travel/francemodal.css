@@ -1,0 +1,45 @@
+
+.france-modal {
+    position: relative;
+  }
+  
+  .france-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .france-images img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .france-images img:hover {
+    transform: scale(1.1);
+    border-color: rgb(11, 11, 11); 
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 1000;
+    /* filter: brightness(0) invert(1); */
+  }
+  
+  /* Ensure the close button image is centered */
+  .close-btn img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+  }
+  

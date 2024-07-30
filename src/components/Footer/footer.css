@@ -1,0 +1,35 @@
+
+
+.footer {
+    width: 100vw;
+    height: 3rem;
+    background: #696e9c;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.twitter-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media screen and (min-width: 50px) and (max-width: 600px) {
+    .footer {
+        width: 100vw;
+        height: 3rem;
+        font-size: 13px;
+        font-weight: 300;
+        position: relative;
+    
+    }
+}

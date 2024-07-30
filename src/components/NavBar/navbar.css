@@ -1,0 +1,264 @@
+.navbar{
+    height: 4.5rem;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    top: 0;
+    z-index: 3;
+    background-color:#FA9C7F;
+
+}
+.close-btn1{
+
+    position: absolute;
+    top: 25px;
+    right: 19px;
+    width: 30px;
+    cursor: pointer;
+ 
+ 
+   
+}
+
+.listItem{
+    display: none;
+}
+
+
+.logo1{
+    object-fit: cover;
+    height: 4rem;
+    width: 5rem;
+    margin-left: 20px;
+}
+.desktopMenuListItem {
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 17px;
+    padding: 4px 15px;
+    font-weight: 500;
+    color: rgb(36, 20, 55);
+    position: relative; 
+}
+.desktop-menu1{
+   display: flex;
+   margin-right: 4%;
+}
+
+.desktop-menu1{
+    z-index: 3;
+    background-color:transparent;
+    position: relative;
+    top:0;
+    width: 100%;
+    height: auto;
+    padding: 25px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.desktopMenuListItem::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background:rgb(118, 114, 197);
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%; 
+    transform: translateX(-50%);
+    transition: width 0.5s ease; 
+
+}
+
+.desktopMenuListItem:hover::after {
+    width: 100%;
+
+}
+
+.dropdownContent {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdownItem {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownItem:hover {
+    background-color: #f1f1f1;
+}
+
+.active{
+  color:rgb(118, 114, 197);
+  
+}
+ img.mobMenu1{
+    display: none;
+    object-fit: cover;
+    height: 3rem;
+    margin-top: 1rem;
+    
+}
+
+.navMenu{
+    top:0;
+    right: 0rem;
+    display:flex;
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    z-index: 0;
+    height: 100vh;
+    font-size: 10px;
+    gap: 3%;  
+    background-color: rgb(255, 255, 255);
+    color: #13c2dd; 
+    justify-content:start;
+    align-items: center;
+    text-align: center;
+    display: none;
+
+
+
+}
+.top-gap{
+    margin-top: 100px;
+
+}
+.listItem:hover{
+    background-color: #d4d2d2;
+}
+.listItem{
+
+ 
+    padding: 1rem 3rem;
+    margin: 0.25rem;
+  
+    font-weight: 400;
+font-size: 1.5rem;
+    justify-content: center;
+    text-align: center;
+    display: none;
+    display: block;
+    font-size: 2em;
+    cursor: pointer;
+    color:#68c3d5;
+    transition: 0.3s;
+    transition-property: color;
+    font-family: overPass-ExtraBold;
+
+
+}
+
+
+.listItem:hover {
+    color: rgb(51, 51, 51)
+}
+
+@media  screen and (max-width:720px) {
+    img.mobMenu1{
+         display: flex;
+     }
+  
+     .desktopMenuListItem{
+         display: none;
+     }
+     .desktopMenuBtn{
+         display: none;
+     }
+     .navbar{
+            background: none;
+     }
+     .navMenu{
+        display: block;
+     }
+     .listItem{
+        display: block;
+     }
+    
+   
+   
+   
+ }
+
+
+ @media (max-width: 1050px) {
+
+    .mobMenu1{
+        display: none;
+    }
+
+}
+ 
+@media (max-width: 730px){
+    .logo1 {
+        width: 80px;
+        position: absolute;
+        top: 2vh;
+        left: 47%;
+        transform: translateX(-50%);
+    }
+   
+ 
+    
+    }
+
+    @media screen and (min-width: 720px) and (max-width: 1050px) {
+        .logo1 {
+          display: none;
+        }
+        .navMenu{
+            display: none;
+        }
+        .listItem{
+            display: none;
+        }
+      }
+
+
+      @media screen and (min-width: 720px) and (max-width: 3000px) {
+     .listItem{
+        display: none;
+     }
+     .desktop-menu1 img.close-btn{
+        display: none;
+     }
+     .navMenu{
+        display: none;
+       
+     }
+     .close-btn1{
+        display: none;
+    }
+    .listItem{
+        display: none;
+    }
+    .navMenu{
+        display: none;
+    }
+
+
+      }
+
+
+      @media screen and (min-width: 700px) and (max-width: 920px) {
+    .desktop-menu1{
+        column-gap: 0px;
+      
+    }
+  
+      }
